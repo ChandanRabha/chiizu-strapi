@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_heading_headings",
+    "info": {
+        "displayName": "heading",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "text",
+            "required": false
+        },
+        "highlightedWord": {
+            "type": "string"
+        }
+    }
+}

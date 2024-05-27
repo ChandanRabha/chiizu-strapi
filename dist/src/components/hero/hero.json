@@ -1,0 +1,23 @@
+{
+    "collectionName": "components_hero_heroes",
+    "info": {
+        "displayName": "hero",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "features": {
+            "displayName": "features",
+            "type": "component",
+            "repeatable": true,
+            "component": "features.features",
+            "required": true
+        },
+        "heading": {
+            "type": "component",
+            "repeatable": false,
+            "component": "heading.heading",
+            "required": true
+        }
+    }
+}

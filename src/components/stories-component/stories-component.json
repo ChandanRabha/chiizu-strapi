@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_stories_component_stories_components",
+  "info": {
+    "displayName": "storiesComponent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "story.stories",
+      "required": true
+    },
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "heading.heading"
+    }
+  }
+}

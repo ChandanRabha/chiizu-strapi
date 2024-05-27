@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero",
+      "required": true
+    },
+    "paymentSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "payment-section.payment-section",
+      "required": true
+    },
+    "head": {
+      "type": "component",
+      "repeatable": false,
+      "component": "head.head",
+      "required": true
+    },
+    "footer": {
+      "displayName": "footer",
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.footer",
+      "required": true
+    },
+    "storiesSection": {
+      "displayName": "storiesComponent",
+      "type": "component",
+      "repeatable": false,
+      "component": "stories-component.stories-component",
+      "required": true
+    },
+    "automationSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "automation-section.automation-section",
+      "required": true
+    },
+    "sponsorsSection": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

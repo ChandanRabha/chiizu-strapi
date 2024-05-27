@@ -1,0 +1,23 @@
+{
+    "collectionName": "components_payment_section_payment_sections",
+    "info": {
+        "displayName": "paymentSection",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "items": {
+            "displayName": "paymentOptions",
+            "type": "component",
+            "repeatable": true,
+            "component": "payment-options.payment-options",
+            "required": true
+        },
+        "heading": {
+            "type": "component",
+            "repeatable": false,
+            "component": "heading.heading",
+            "required": true
+        }
+    }
+}

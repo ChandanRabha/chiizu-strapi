@@ -1,0 +1,20 @@
+{
+    "collectionName": "components_fav_icons_fav_icons",
+    "info": {
+        "displayName": "favIcons",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "icons": {
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ],
+            "type": "media",
+            "multiple": true
+        }
+    }
+}

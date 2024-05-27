@@ -1,0 +1,24 @@
+{
+    "collectionName": "components_automation_section_automation_sections",
+    "info": {
+        "displayName": "AutomationSection",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "heading": {
+            "type": "component",
+            "repeatable": false,
+            "component": "heading.heading",
+            "required": true
+        },
+        "softwares": {
+            "type": "media",
+            "multiple": true,
+            "required": true,
+            "allowedTypes": [
+                "images"
+            ]
+        }
+    }
+}

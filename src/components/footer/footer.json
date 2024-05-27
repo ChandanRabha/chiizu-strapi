@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_footer_footers",
+  "info": {
+    "displayName": "footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "socials": {
+      "displayName": "socials",
+      "type": "component",
+      "repeatable": true,
+      "component": "socials.socials",
+      "required": true
+    },
+    "cities": {
+      "displayName": "cities",
+      "type": "component",
+      "repeatable": true,
+      "component": "cities.cities",
+      "required": true
+    }
+  }
+}
