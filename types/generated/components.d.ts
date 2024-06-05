@@ -24,6 +24,18 @@ export interface CitiesCities extends Schema.Component {
   };
 }
 
+export interface DemoSectionQuestionaire extends Schema.Component {
+  collectionName: 'components_demo_section_questionaires';
+  info: {
+    displayName: 'Questionaire';
+    description: '';
+  };
+  attributes: {
+    name: Attribute.String;
+    options: Attribute.Component<'question-option.option', true>;
+  };
+}
+
 export interface FavIconsFavIcons extends Schema.Component {
   collectionName: 'components_fav_icons_fav_icons';
   info: {
@@ -127,6 +139,17 @@ export interface PaymentSectionPaymentSection extends Schema.Component {
   };
 }
 
+export interface QuestionOptionOption extends Schema.Component {
+  collectionName: 'components_question_option_options';
+  info: {
+    displayName: 'option';
+    description: '';
+  };
+  attributes: {
+    option: Attribute.String;
+  };
+}
+
 export interface SocialsSocials extends Schema.Component {
   collectionName: 'components_socials_socials';
   info: {
@@ -171,6 +194,7 @@ declare module '@strapi/types' {
     export interface Components {
       'automation-section.automation-section': AutomationSectionAutomationSection;
       'cities.cities': CitiesCities;
+      'demo-section.questionaire': DemoSectionQuestionaire;
       'fav-icons.fav-icons': FavIconsFavIcons;
       'features.features': FeaturesFeatures;
       'footer.footer': FooterFooter;
@@ -179,6 +203,7 @@ declare module '@strapi/types' {
       'hero.hero': HeroHero;
       'payment-options.payment-options': PaymentOptionsPaymentOptions;
       'payment-section.payment-section': PaymentSectionPaymentSection;
+      'question-option.option': QuestionOptionOption;
       'socials.socials': SocialsSocials;
       'stories-component.stories-component': StoriesComponentStoriesComponent;
       'story.stories': StoryStories;

@@ -807,6 +807,7 @@ export interface ApiHomeHome extends Schema.SingleType {
     automationSection: Attribute.Component<'automation-section.automation-section'>;
     storiesSection: Attribute.Component<'stories-component.stories-component'>;
     sponsorsSection: Attribute.Media;
+    demoSection: Attribute.Component<'demo-section.questionaire', true>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

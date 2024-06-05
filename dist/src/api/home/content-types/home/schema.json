@@ -52,6 +52,11 @@
                 "videos",
                 "audios"
             ]
+        },
+        "demoSection": {
+            "type": "component",
+            "repeatable": true,
+            "component": "demo-section.questionaire"
         }
     }
 }

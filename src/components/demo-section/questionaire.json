@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_demo_section_questionaires",
+  "info": {
+    "displayName": "Questionaire",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "options": {
+      "displayName": "option",
+      "type": "component",
+      "repeatable": true,
+      "component": "question-option.option"
+    }
+  }
+}
