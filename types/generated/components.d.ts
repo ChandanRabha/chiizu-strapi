@@ -122,7 +122,7 @@ export interface PaymentOptionsPaymentOptions extends Schema.Component {
     title: Attribute.String & Attribute.Required;
     description: Attribute.Text & Attribute.Required;
     image: Attribute.Media & Attribute.Required;
-    gradientClass: Attribute.String & Attribute.Required;
+    gradientColor: Attribute.String & Attribute.Required;
   };
 }
 

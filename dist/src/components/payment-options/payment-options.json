@@ -22,7 +22,7 @@
                 "images"
             ]
         },
-        "gradientClass": {
+        "gradientColor": {
             "type": "string",
             "required": true
         }
